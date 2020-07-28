@@ -23,8 +23,8 @@ class ScannerOverlay: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        line.backgroundColor = UIColor.red
-        line.translatesAutoresizingMaskIntoConstraints = false
+        // line.backgroundColor = UIColor.red
+        // line.translatesAutoresizingMaskIntoConstraints = false
         
         addSubview(line)
     }
