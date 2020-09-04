@@ -33,7 +33,6 @@ public class SwiftBarcodeScanPlugin: NSObject, FlutterPlugin, BarcodeScannerView
         let scannerViewController = BarcodeScannerViewController()
         
         let navigationController = UINavigationController(rootViewController: scannerViewController)
-        navigationController.setNavigationBarHidden(true, animated: false)
         if #available(iOS 13.0, *) {
             navigationController.modalPresentationStyle = .fullScreen
         }
