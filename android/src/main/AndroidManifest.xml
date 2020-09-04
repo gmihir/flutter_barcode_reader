@@ -5,7 +5,6 @@
 
   <application>
     <activity
-        android:name="de.mintware.barcode_scan.BarcodeScannerActivity"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        android:name="de.mintware.barcode_scan.BarcodeScannerActivity"/>
   </application>
 </manifest>
